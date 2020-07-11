@@ -14,8 +14,8 @@ pipeline
        {
             steps
              {
-                cd /home/ec2-user/docker/workspace/docker_pipeline/MavenFirstApp/
-              }
+              cd /home/ec2-user/docker/workspace/docker_pipeline/MavenFirstApp/
+             }
         }
       
     }
