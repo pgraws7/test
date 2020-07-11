@@ -17,6 +17,7 @@ pipeline
                 cd /home/ec2-user/docker/workspace/docker_pipeline/MavenFirstApp/
                 mvn compile
               }
-       }
+        }
+      }
     }
 }
