@@ -7,7 +7,7 @@ pipeline
        {
             steps
              {
-              sh "git clone https://github.com/BASHA9692/MavenFirstApp.git"
+              sh "git pull  https://github.com/BASHA9692/MavenFirstApp.git"
              }
         }
         stage('Build')
