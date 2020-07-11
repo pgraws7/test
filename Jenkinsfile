@@ -1,10 +1,13 @@
 pipeline
 {
-  stages("ALL")
+  stages
     {
-      stage("Git clone")
+        stage('Git clone')
        {
-        git clone "https://github.com/BASHA9692/MavenFirstApp.git"
+            steps
+             {
+               git clone https://github.com/BASHA9692/MavenFirstApp.git
+             }
        }
     }
 }
