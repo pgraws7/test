@@ -10,14 +10,15 @@ pipeline
               sh "git clone https://github.com/BASHA9692/MavenFirstApp.git"
              }
         }
-       stage('Build')
+        stage('Build')
        {
             steps
              {
                 cd /home/ec2-user/docker/workspace/docker_pipeline/MavenFirstApp/
-               sh "mvn compile"
+                sh "mvn compile"
               }
         }
       }
     }
 }
+
