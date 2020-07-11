@@ -6,7 +6,7 @@ pipeline
        {
             steps
              {
-               git clone https://github.com/BASHA9692/MavenFirstApp.git
+               git clone "https://github.com/BASHA9692/MavenFirstApp.git"
              }
        }
     }
