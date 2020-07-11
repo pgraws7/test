@@ -14,9 +14,9 @@ pipeline
        {
             steps
              {
-              sh " cd /home/ec2-user/docker/workspace/docker_pipeline/MavenFirstApp/"
-              sh " mvn -f path/to/pom.xml <goals> ..."
-              sh " mvn compile"
+             sh " cd /home/ec2-user/docker/workspace/docker_pipeline "
+	     sh " cp -pr pom.xml /home/ec2-user/docker/workspace/docker_pipeline/"
+	     sh " mvn compile"
              }
         }
       
