@@ -14,7 +14,7 @@ pipeline
        {
             steps
              {
-              sh "cd /home/ec2-user/docker/workspace/docker_pipeline/MavenFirstApp/src/"
+              sh "cd /home/ec2-user/docker/workspace/docker_pipeline/MavenFirstApp/"
               sh "mvn compile"
               sh "mvn clean package"
              }
