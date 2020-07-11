@@ -1,6 +1,7 @@
 pipeline
 {
-  stages
+ agent any
+ stages
     {
         stage('Git clone')
        {
