@@ -18,7 +18,7 @@ pipeline
                 mvn compile
               }
         }
-      }
+      
     }
 }
 
