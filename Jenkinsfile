@@ -15,7 +15,7 @@ pipeline
             steps
              {
              sh " cd /home/ec2-user/docker/workspace/docker_pipeline/MavenFirstApp"
-	    
+	     sh " ls -ltr "
              }
         }
       
